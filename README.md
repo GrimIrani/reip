@@ -9,7 +9,11 @@ All the VPN clients in a single-file!!!
 - ...
 
 # tunnel
-it will tunnel the system easy peasy you
+Easy peasy multiple ways to tunnel you system!!!
+
+- tunnel xorg with proxychains startx
+- tunnel using tun commend
+- tunnel with sing-box
 
 # proxy
 you can proxy every protocols.
