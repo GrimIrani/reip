@@ -38,7 +38,7 @@ you need just the reip single-file!
 # DO NOT INSTALL!
 the only thing you'll need is just this single-file and nothing more(every client is in the file)
 
-# commend
+# commends
 >reip set vless://... PROFILE
 >reip PROFILE
 >reip on(latest config)
@@ -67,7 +67,7 @@ the only thing you'll need is just this single-file and nothing more(every clien
 >
 >reip dns 1.1.1.1
 >
->reip hotspot name Pass123! (using create_ap)
+>reip hotspot HotspotVPN Pass123! (using create_ap)
 >
 >ALL_YOU_NEED_<3
 
