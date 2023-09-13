@@ -67,7 +67,7 @@ the only thing you'll need is just this single-file and nothing more(every clien
 >
 >reip dns 1.1.1.1
 >
->reip hotspot
+>reip hotspot name Pass123! (using create_ap)
 >
 >ALL_YOU_NEED_<3
 
