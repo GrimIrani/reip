@@ -1,6 +1,6 @@
 #!/bin/bash
 
-<< DETAILS
+: '
     Author: GrimIrani
     Date: 2021-11-28
     Lisense: NPLv1
@@ -11,5 +11,29 @@
         v2ray-core: v2.0
         openvpn:    v2.6
         wireguard:  v2.0
-DETAILES
+'
 
+echo "Usage:"
+echo "  reip <command> <options> profile"
+echo ""
+echo "Examples:"
+echo "  reip tun tor"
+echo "  reip tun vless://..."
+echo "  reip tun config.ovpn"
+echo "  reip tun wire01.conf"
+echo "  reip proxy --Socks5 127.0.0.0:1080 tor"
+echo ""
+echo "Commands:"
+echo "  tun          Tunnel all the system"
+echo "  run          run the program with proxy"
+echo "  proxy        open a proxy port"
+echo "  set          set a VPN profile"
+echo "  del          delete a VPN profile"
+echo "  toggle       Toggle the reip service"
+echo "  status       Show the status of the reip service"
+echo "  install      Install the reip"
+echo "  uninstall    Uninstall the reip"
+echo "  upgrade      Upgrade the reip"
+echo "  deamon       make a deamon on the system"
+echo "  version      Show the version of the reip"
+echo "  help         Show this help message"
