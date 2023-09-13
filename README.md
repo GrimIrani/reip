@@ -40,12 +40,10 @@ the only thing you'll need is just this single-file and nothing more(every clien
 
 # commends
 >reip set vless://... PROFILE
->reip PROFILE
->reip on(latest config)
->reip stop/off
->reip del PROFILE
 >
->reip config.ovpn
+>reip PROFILE
+>
+>reip del PROFILE
 >
 >reip deamon
 >sudo systemctl enable reip
@@ -53,8 +51,9 @@ the only thing you'll need is just this single-file and nothing more(every clien
 >
 >reip proxy PROFILE
 >reip tun PROFILE
->reip xorgtun PROFILE
->reip singtun PROFILE
+>reip tun --Xorg PROFILE
+>reip tun -s/--Sing-box PROFILE
+>reip tun -v/--V2ray PROFILE
 >
 >reip convert vless://... file.json (sing-box config)
 >
