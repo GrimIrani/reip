@@ -37,3 +37,35 @@ you need just the reip single-file!
 
 # DO NOT INSTALL!
 the only thing you'll need is just this single-file and nothing more(every client is in the file)
+
+# commend
+>reip set vless://... PROFILE
+>reip PROFILE
+>reip on(latest config)
+>reip stop/off
+>reip del PROFILE
+>
+>reip config.ovpn
+>
+>reip deamon
+>sudo systemctl enable reip
+>reip deamon PROFILE
+>
+>reip proxy PROFILE
+>reip tun PROFILE
+>reip xorgtun PROFILE
+>reip singtun PROFILE
+>
+>reip convert vless://... file.json (sing-box config)
+>
+>reip chain PROFILE1 PROFILE2 PROFILE3
+>
+>reip export ./profiles
+>reip clean (delete all the profiles added to reip)
+>
+>reip PROFILE telegram-desktop/firefox/...
+>
+>ALL_YOU_NEED_<3
+
+
+
