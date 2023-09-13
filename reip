@@ -1,0 +1,13 @@
+#!/bin/bash
+
+<< DETAILS
+    Author: GrimIrani
+    Date: 2021-11-28
+    
+    Cores:
+        Sing-box:   v2.0
+        v2ray-core: v2.0
+        openvpn:    v2.6
+        wireguard:  v2.0
+DETAILES
+
