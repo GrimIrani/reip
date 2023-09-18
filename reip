@@ -37,3 +37,31 @@ echo "  upgrade      Upgrade the reip"
 echo "  deamon       make a deamon on the system"
 echo "  version      Show the version of the reip"
 echo "  help         Show this help message"
+
+convert_ss_url_to_json() {                                                                                                                                         
+    local url=$1
+    
+    # Extract base64 encoded part from the URL
+    local base64_part=$(echo $url | awk -F'://' '{print $2}' | awk -F'#' '{print $1}')
+    
+    # Decode base64 part to get method and password
+    local decoded_part=$(echo $base64_part | base64 -d)
+    local method=$(echo $decoded_part | awk -F':' '{print $1}')
+    local password=$(echo $decoded_part | awk -F':' '{print $2}')
+    
+    # Extract other parts from the URL
+    local server=$(echo $url | awk -F'@' '{print $2}' | awk -F':' '{print $1}')
+    local server_port=$(echo $url | awk -F':' '{print $NF}' | awk -F'#' '{print $1}')
+    
+    # Create JSON object
+    local json='{
+        "type": "shadowsocks",
+        "tag": "shadowsocks-out",
+        "server": "'$server'",
+        "server_port": '$server_port',
+        "method": "'$method'",
+        "password": "'$password'"
+    }'
+    
+    echo $json
+}
