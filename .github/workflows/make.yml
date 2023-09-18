@@ -1,0 +1,26 @@
+# This code will get latest version of cores(tor, openvpn3, sing-box, v2ray-core, ...)
+
+name: Make reip single-file.
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install makeself
+        run: sudo apt install makeself
+
+      - name: get latest version of sing-box
+        run: |
+          wget https://github.com/SagerNet/sing-box/releases/download/v1.4.3/sing-box-1.4.3-linux-amd64.tar.gz
+          tar -xf sing-box-1.4.3-linux-amd64.tar.gz
