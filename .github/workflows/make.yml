@@ -16,6 +16,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      
+      - name: make folders
+        run: mkdir all sing-box tor v2ray-core openvpn3 
 
       - name: install makeself
         run: sudo apt install makeself
@@ -24,3 +27,4 @@ jobs:
         run: |
           wget https://github.com/SagerNet/sing-box/releases/download/v1.4.3/sing-box-1.4.3-linux-amd64.tar.gz
           tar -xf sing-box-1.4.3-linux-amd64.tar.gz
+          makeself all reip "null" ./reip
