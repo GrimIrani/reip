@@ -21,7 +21,7 @@ you can proxy every protocols.
 even proxy **openvpn** and **wireguard** using docker.
 
 # the single-file
-it's bash script that use shar (an abbreviation of shell archive),
+reip single-file use ![makeself](https://github.com/megastep/makeself),
 
 for example **tor** have a binary, that binary will archive the single-file so you don't need tor anymore.
 
@@ -34,9 +34,6 @@ or openvpn-client
 or ...
 
 you need just the reip single-file!
-
-# DO NOT INSTALL!
-the only thing you'll need is just this single-file and nothing more(every client is in the file)
 
 # Usage
 ```
