@@ -2,7 +2,8 @@
 All the VPN clients in a single-file!!!
 - tor
 - sing-box
-- v2ray-core
+- Xray-core(v2ray)
+- clash
 - openvpn
 - wireguard
 - http/socks proxy
