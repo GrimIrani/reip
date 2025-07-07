@@ -8,33 +8,6 @@ All the VPN clients in a single-file!!!
 - http/socks proxy
 - ...
 
-# tunnel
-Easy peasy multiple ways to tunnel you system!!!
-- [hev-socks5-server](https://github.com/heiher/hev-socks5-tunnel)
-- tun2socks
-- redsocks
-- proxychains-ng
-
-# proxy
-you can proxy every protocols.
-
-even proxy **openvpn** and **wireguard** using docker.
-
-# the single-file
-reip single-file use ![makeself](https://github.com/megastep/makeself),
-
-for example **tor** have a binary, that binary will archive the single-file so you don't need tor anymore.
-
-or sing-box
-
-or v2ray-core
-
-or openvpn-client
-
-or ...
-
-you need just the reip single-file!
-
 # Usage
 ```
 Usage:
@@ -62,3 +35,13 @@ Commands:
   version      Show the version of the reip
   help         Show this help message
 ```
+
+## tunnel/proxy technologies
+Easy peasy multiple ways to tunnel you system!!!
+- [hev-socks5-server](https://github.com/heiher/hev-socks5-tunnel)
+- tun2socks
+- redsocks
+- proxychains-ng
+
+## the single-file
+reip single-file used ![makeself](https://github.com/megastep/makeself) to package itself so you just need the reip single-file!
