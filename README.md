@@ -22,10 +22,11 @@ Examples:
 
 Commands:
   tun          Tunnel all the system
-  run          run the program with proxy
+  run          run the program with proxy(proxychains-ng)
   proxy        open a proxy port
   set          set a VPN profile
   del          delete a VPN profile
+  list         list the VPN profiles
   toggle       Toggle the reip service
   status       Show the status of the reip service
   install      Install the reip
