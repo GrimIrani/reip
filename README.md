@@ -10,10 +10,10 @@ All the VPN clients in a single-file!!!
 
 # tunnel
 Easy peasy multiple ways to tunnel you system!!!
-
-- tunnel xorg with proxychains startx
-- tunnel using tun commend
-- tunnel with sing-box
+- [hev-socks5-server](https://github.com/heiher/hev-socks5-tunnel)
+- tun2socks
+- redsocks
+- proxychains-ng
 
 # proxy
 you can proxy every protocols.
